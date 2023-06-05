@@ -1,0 +1,65 @@
+.Container_Setting {
+    padding: 5rem;
+    margin: auto;
+}
+.box_text {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 700;
+    color: #000000;
+}
+.box {
+    background-color: #f7f6f6;
+    border-radius: 20px;
+    width: 20vw;
+    height: 40vh;
+    box-shadow: 0px 1px 2px 0px #000000;
+    margin-top: 2rem;
+}
+.box_center {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.Submit_btn{
+    display: flex;
+    justify-content: center;
+}
+.ChangePassword_Btn {
+    margin-top: 1.2rem;
+    background-color: #1c3683;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+    .box {
+        width: 20vw;
+        height: 30vh;
+    }
+    .box_text {
+        font-size: 15px;
+        padding: 5px;
+        font-weight: 700;
+    }
+    .box_center {
+        margin-top: 10px;
+        width: 70%;
+        height: 70%;
+        display: inline;
+    }
+    .ChangePassword_Btn{
+        font-size: 12px;
+        right: 50px;
+    }
+    .box_center Box{
+        width: 50%;
+        background-color: red;
+    }
+    .Submit_btn{
+        display: flex;
+        justify-content: center;
+    }
+}

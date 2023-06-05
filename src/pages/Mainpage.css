@@ -1,0 +1,14 @@
+.main-root {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+}
+
+body{
+  background-color: #eaf4f4;
+}
